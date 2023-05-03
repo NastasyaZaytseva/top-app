@@ -1,10 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-export default function Home() {
+import React from "react";
+import { P } from "../components/Paragraph/P";
+
+export default function Home(): JSX.Element {
 
   return (
-    <div>
-      ololllo
-    </div>
+<>
+<P>dsadas</P>
+</>
   )
 }

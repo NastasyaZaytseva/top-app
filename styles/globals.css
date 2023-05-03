@@ -3,7 +3,9 @@ body {
 	margin: 0;
 	padding: 0;
 
-	font-family: 'Noto Sans KR', sans-serif;
+	color: var(--black);
+	background: #F5F6F8;
+
 }
 
 a {
@@ -14,4 +16,16 @@ a {
 
 * {
 	box-sizing: border-box;
+}
+
+:root {
+	--black: #3B434E;
+	--white: white;
+	--primary: #7351F5;
+	--red-light: #FEA291;
+	--red: #FC836D;
+	--green: #007B48;
+	--green-light: #C8F8E4;
+	font-family: 'Noto Sans KR', sans-serif;
+
 }
