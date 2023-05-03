@@ -1,10 +1,11 @@
 import React from "react";
-import { P } from "../components/Paragraph/P";
+import { Htag, P,} from '../components';
 
 export default function Home(): JSX.Element {
 
   return (
 <>
+<Htag tag="h1" >olololo</Htag>
 <P>dsadas</P>
 </>
   )
