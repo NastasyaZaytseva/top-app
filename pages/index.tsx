@@ -9,6 +9,9 @@ export default function Home(): JSX.Element {
 <P>dsadas</P>
 <Button apperance="primary" arrow="right">hola</Button>
 <Button apperance="ghost" arrow="right">adios</Button>
+<P size='l'>Большой</P>
+<P>Средний</P>
+			<P size='s'>Маленький</P>
 </>
   )
 }
