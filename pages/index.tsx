@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Htag, P, Button, Rating} from '../components';
 
 export default function Home(): JSX.Element {
+  const [rating, setRating] = useState<number> (4);
 
   return (
 <>
@@ -11,8 +12,8 @@ export default function Home(): JSX.Element {
 <Button apperance="ghost" arrow="right">adios</Button>
 <P size='l'>Большой</P>
 <P>Средний</P>
-			<P size='s'>Маленький</P>
-<Rating rating={4}> </Rating>
+<P size='s'>Маленький</P>
+<Rating rating={rating} isEditable setRating={setRating}> </Rating>
 </>
   )
 }
